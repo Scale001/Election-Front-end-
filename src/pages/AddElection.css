@@ -1,0 +1,135 @@
+.add-election-container {
+  max-width: 800px;
+  margin: 2rem auto;
+  padding: 2rem;
+}
+
+.election-form {
+  background: white;
+  padding: 2rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.form-group {
+  margin-bottom: 1.5rem;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 0.5rem;
+  font-weight: 500;
+  color: #374151;
+}
+
+.form-group label::after {
+  content: " *";
+  color: #dc2626;
+}
+
+.form-group input,
+.form-group select {
+  width: 100%;
+  padding: 0.75rem;
+  border: 1px solid #d1d5db;
+  border-radius: 4px;
+  font-size: 1rem;
+}
+
+.form-group input:invalid,
+.form-group select:invalid {
+  border-color: #dc2626;
+}
+
+.form-group input:focus:invalid,
+.form-group select:focus:invalid {
+  outline-color: #dc2626;
+}
+
+.form-row {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+}
+
+.manifesto-section {
+  margin: 1.5rem 0;
+}
+
+.manifesto-section input {
+  width: 100%;
+  margin-bottom: 0.5rem;
+  padding: 0.75rem;
+  border: 1px solid #d1d5db;
+  border-radius: 4px;
+}
+
+.add-point-btn,
+.add-candidate-btn,
+.submit-btn {
+  background: #2563eb;
+  color: white;
+  border: none;
+  padding: 0.75rem 1.5rem;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: 500;
+  transition: background-color 0.2s;
+}
+
+.add-point-btn:hover,
+.add-candidate-btn:hover,
+.submit-btn:hover {
+  background: #1d4ed8;
+}
+
+.candidates-list {
+  margin-top: 2rem;
+  padding-top: 2rem;
+  border-top: 1px solid #e5e7eb;
+}
+
+.candidate-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  margin-bottom: 0.5rem;
+  background: #f3f4f6;
+  border-radius: 4px;
+}
+
+.remove-btn {
+  background: #ef4444;
+  color: white;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.remove-btn:hover {
+  background: #dc2626;
+}
+
+.submit-btn {
+  width: 100%;
+  margin-top: 2rem;
+  background: #059669;
+}
+
+.submit-btn:hover {
+  background: #047857;
+}
+
+h2 {
+  color: #1f2937;
+  margin-bottom: 1.5rem;
+}
+
+.election-details,
+.add-candidate-section {
+  margin-bottom: 2rem;
+  padding-bottom: 2rem;
+  border-bottom: 1px solid #e5e7eb;
+}

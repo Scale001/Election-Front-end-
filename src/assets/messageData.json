@@ -1,0 +1,146 @@
+[
+    {
+        "id": 6,
+        "type": "audio",
+        "favorites": false,
+        "viewed": false,
+        "content": "https://example.com/audio3.mp3",
+        "time": "2y"
+    },
+    {
+        "id": 5,
+        "type": "text",
+        "favorites": true,
+        "viewed": true,
+        "content": "Can you send me the files by evening?",
+        "time": "4mon"
+    },
+    {
+        "id": 8,
+        "type": "audio",
+        "favorites": true,
+        "viewed": true,
+        "content": "https://example.com/audio4.mp3",
+        "time": "5d"
+    },
+    {
+        "id": 4,
+        "type": "audio",
+        "favorites": true,
+        "viewed": false,
+        "content": "https://example.com/audio2.mp3",
+        "time": "2d"
+    },
+    {
+        "id": 7,
+        "type": "text",
+        "favorites": false,
+        "viewed": false,
+        "content": "In the heart of a bustling city, amidst towering skyscrapers and endless traffic, lived two friends, Anya and Ben. They were as different as night and day, yet their bond was unbreakable. Anya, with her fiery spirit and infectious laughter, was the life of any party. Ben, on the other hand, was a quiet observer, finding solace in the pages of books and the beauty of nature. Despite their differences, they shared a deep connection, a friendship that transcended words.",
+        "time": "3h"
+    },
+    {
+        "id": 3,
+        "type": "text",
+        "favorites": false,
+        "viewed": true,
+        "content": "Don't forget about the meeting tomorrow.",
+        "time": "1h"
+    },
+    {
+        "id": 2,
+        "type": "audio",
+        "favorites": false,
+        "viewed": true,
+        "content": "https://example.com/audio1.mp3",
+        "time": "20m"
+    },
+    {
+        "id": 1,
+        "type": "text",
+        "favorites": true,
+        "viewed": false,
+        "content": "Hi Love",
+        "time": "1m"
+    },
+    {
+        "id": 9,
+        "type": "text",
+        "favorites": false,
+        "viewed": true,
+        "content": "Let's catch up soon!",
+        "time": "10m"
+    },
+    {
+        "id": 10,
+        "type": "audio",
+        "favorites": true,
+        "viewed": false,
+        "content": "https://res.cloudinary.com/duowocved/video/upload/v1728236322/central_cee_cold_shoulder_music_video_mp3_37212_nssf1q.mp3",
+        "time": "1w"
+    },
+    {
+        "id": 11,
+        "type": "text",
+        "favorites": true,
+        "viewed": false,
+        "content": "The weather is amazing today.",
+        "time": "3d"
+    },
+    {
+        "id": 12,
+        "type": "audio",
+        "favorites": false,
+        "viewed": true,
+        "content": "https://example.com/audio6.mp3",
+        "time": "6h"
+    },
+    {
+        "id": 13,
+        "type": "text",
+        "favorites": false,
+        "viewed": false,
+        "content": "Can you review the document I sent?",
+        "time": "2h"
+    },
+    {
+        "id": 14,
+        "type": "audio",
+        "favorites": true,
+        "viewed": true,
+        "content": "https://example.com/audio7.mp3",
+        "time": "8mon"
+    },
+    {
+        "id": 15,
+        "type": "text",
+        "favorites": true,
+        "viewed": true,
+        "content": "Happy Birthday! Have a great day!",
+        "time": "1y"
+    },
+    {
+        "id": 16,
+        "type": "audio",
+        "favorites": false,
+        "viewed": false,
+        "content": "https://example.com/audio8.mp3",
+        "time": "3w"
+    },
+    {
+        "id": 17,
+        "type": "text",
+        "favorites": false,
+        "viewed": true,
+        "content": "Meeting rescheduled to next week.",
+        "time": "5h"
+    },
+    {
+        "id": 18,
+        "type": "audio",
+        "favorites": true,
+        "viewed": false,
+        "content": "https://example.com/audio9.mp3",
+        "time": "2mon"
+    }
+]

@@ -1,0 +1,272 @@
+.election-details {
+  padding: 2rem;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.election-header {
+  margin-bottom: 2rem;
+  padding-bottom: 1rem;
+  border-bottom: 1px solid #e5e7eb;
+}
+
+.election-header h1 {
+  margin-bottom: 1rem;
+  color: #1f2937;
+  font-size: 2rem;
+}
+
+.election-meta {
+  margin-top: 1rem;
+  color: #6b7280;
+}
+
+.candidates-section {
+  margin-top: 2rem;
+}
+
+.candidates-section h2 {
+  margin-bottom: 1.5rem;
+  color: #1f2937;
+}
+
+.position {
+  color: #2563eb;
+  font-weight: 500;
+  margin: 0.5rem 0;
+}
+
+.department {
+  color: #6b7280;
+  font-size: 0.9rem;
+  margin-bottom: 1rem;
+}
+
+.vote-button {
+  width: 100%;
+  padding: 0.75rem;
+  margin-top: 1rem;
+  background-color: #2563eb;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.vote-button:hover:not(:disabled) {
+  background-color: #1d4ed8;
+  transform: translateY(-1px);
+}
+
+.vote-button:disabled {
+  background-color: #9ca3af;
+  cursor: not-allowed;
+}
+
+.candidate-card.selected {
+  border: 2px solid #2563eb;
+  box-shadow: 0 4px 12px rgba(37, 99, 235, 0.1);
+}
+
+.candidate-card.selected .vote-button {
+  background-color: #059669;
+}
+
+@media (max-width: 768px) {
+  .election-details {
+    padding: 1rem;
+  }
+
+  .candidates-grid {
+    grid-template-columns: 1fr;
+  }
+}
+/* Global container */
+.election-details {
+  padding: 2rem;
+  max-width: 1100px;
+  margin: 0 auto;
+  font-family: "Inter", system-ui, sans-serif;
+  color: #1f2937;
+}
+
+/* Header section */
+.election-header {
+  border-bottom: 2px solid #e5e7eb;
+  padding-bottom: 1rem;
+  margin-bottom: 2rem;
+}
+
+.election-header h1 {
+  font-size: 2rem;
+  font-weight: 700;
+  margin: 0;
+  color: #111827;
+}
+
+.status-badge {
+  display: inline-block;
+  margin-top: 0.5rem;
+  padding: 0.35rem 0.75rem;
+  border-radius: 9999px;
+  font-size: 0.875rem;
+  font-weight: 600;
+  text-transform: capitalize;
+}
+
+.status-badge.active {
+  background: #d1fae5;
+  color: #065f46;
+}
+
+.status-badge.closed {
+  background: #fee2e2;
+  color: #991b1b;
+}
+
+.status-badge.pending {
+  background: #fef3c7;
+  color: #92400e;
+}
+
+.election-meta {
+  margin-top: 0.5rem;
+  font-size: 0.95rem;
+  color: #6b7280;
+}
+
+.election-meta .dates {
+  font-weight: 500;
+  color: #374151;
+}
+
+/* Candidates section */
+.candidates-section {
+  margin-top: 2rem;
+}
+
+.candidates-section h2 {
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin-bottom: 1.5rem;
+  color: #111827;
+}
+
+/* Candidate grid */
+.candidates-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 1.5rem;
+}
+
+/* Candidate card */
+.candidate-card {
+  background: #ffffff;
+  border-radius: 1rem;
+  overflow: hidden;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.07);
+  display: flex;
+  flex-direction: column;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.candidate-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 6px 14px rgba(0, 0, 0, 0.12);
+}
+
+.candidate-card.selected {
+  border: 2px solid #2563eb;
+}
+
+/* Candidate image */
+.candidate-image {
+  height: 180px;
+  background: #f3f4f6;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.candidate-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* Candidate info */
+.candidate-info {
+  padding: 1.25rem;
+}
+
+.candidate-info h3 {
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: #111827;
+  margin: 0;
+}
+
+.candidate-info .position {
+  font-size: 0.9rem;
+  color: #2563eb;
+  font-weight: 500;
+  margin: 0.25rem 0;
+}
+
+.candidate-info .department {
+  font-size: 0.85rem;
+  color: #6b7280;
+  margin-bottom: 0.75rem;
+}
+
+/* Manifesto */
+.manifesto {
+  margin-top: 0.75rem;
+}
+
+.manifesto h4 {
+  font-size: 0.9rem;
+  font-weight: 600;
+  margin-bottom: 0.25rem;
+  color: #374151;
+}
+
+.manifesto ul {
+  list-style: disc;
+  padding-left: 1.2rem;
+  margin: 0.25rem 0;
+  font-size: 0.85rem;
+  color: #4b5563;
+}
+
+.manifesto li {
+  margin-bottom: 0.25rem;
+}
+
+/* Vote button */
+.vote-button {
+  margin-top: 1rem;
+  width: 100%;
+  background: #2563eb;
+  color: white;
+  font-weight: 600;
+  font-size: 0.95rem;
+  padding: 0.75rem 1rem;
+  border-radius: 0.75rem;
+  border: none;
+  cursor: pointer;
+  transition: background 0.2s ease, transform 0.15s ease;
+}
+
+.vote-button:hover:not(:disabled) {
+  background: #1d4ed8;
+  transform: translateY(-2px);
+}
+
+.vote-button:disabled {
+  background: #9ca3af;
+  cursor: not-allowed;
+}

@@ -1,0 +1,49 @@
+.share-container {
+  background-color: #ffd09d;
+  background-image: url(../media/bg-image.png);
+  background-size: contain;
+  height: 100%;
+  width: 100%;
+  position: fixed;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.inner-container {
+  min-width: 320px;
+  width: 100%;
+  height: 100%;
+  max-width: 350px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin: 0 auto;
+  justify-content: space-between;
+  padding-top: 20px;
+}
+
+.text-share {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.save-to-device {
+  height: 52px;
+  margin-bottom: 2rem;
+  width: 100%;
+}
+
+@media screen and (max-width: 600px) {
+  .inner-container {
+    width: 100%;
+    padding: 0 20px;
+    max-width: 100%;
+    position: fixed;
+    align-items: center;
+    padding-top: 20px;
+  }
+}

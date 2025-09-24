@@ -1,0 +1,117 @@
+.homepage {
+  background-image: url("../media/home-bg.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.navigation-head {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  max-width: 600px;
+  padding: 0.5rem 0.55rem;
+  border-radius: 100px;
+  margin: 0 auto;
+  border: 0.5px solid var(--white-three);
+  position: relative;
+  background-color: rgba(255, 255, 255, 0.171);
+  backdrop-filter: blur(6px);
+  z-index: 6;
+}
+
+.link {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 0.25rem;
+  height: 35px;
+  padding: 0 0.75rem;
+  border-radius: 100px;
+  cursor: pointer;
+  z-index: 1;
+  background-color: var(--light-orange);
+}
+
+.link-text:hover {
+  text-decoration: none;
+}
+
+.beta-tag {
+  width: 56px;
+  height: 26px;
+  background-color: var(--light-orange);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 100px;
+  border: 1px solid #ffe4c8;
+  margin: 0 auto;
+  backdrop-filter: blur(12px);
+}
+
+.text-btn {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  max-width: 600px;
+  margin: 0 auto;
+  text-align: center;
+  gap: 1.5rem;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  padding: 0 1.02rem;
+}
+
+.text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.terms {
+  display: flex;
+  flex-direction: row;
+  gap: 2rem;
+  position: absolute;
+  bottom: 0;
+  padding-bottom: 1.25rem;
+}
+
+.balance {
+  text-wrap: balance;
+}
+
+.not-found {
+  display: flex;
+  height: 100%;
+  width: 100%;
+  position: fixed;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  padding: 0.5rem;
+}
+
+.notFound {
+  width: 100%;
+  max-width: 400px;
+  min-width: 200px;
+  margin-top: -6rem;
+}

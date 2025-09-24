@@ -1,0 +1,93 @@
+export const electionCandidates = [
+  {
+    id: 1,
+    name: "Sarah Johnson",
+    position: "President",
+    image: "https://picsum.photos/400/400?random=1",
+    manifesto: [
+      "Implement monthly student forums",
+      "Create more study spaces on campus",
+      "Improve campus Wi-Fi infrastructure",
+      "Establish 24/7 library access",
+    ],
+    department: "Political Science",
+    level: "400",
+  },
+  {
+    id: 2,
+    name: "Michael Chen",
+    position: "Vice President",
+    image: "https://picsum.photos/400/400?random=2",
+    manifesto: [
+      "Launch student mental health initiative",
+      "Expand campus shuttle service",
+      "Create student mentorship program",
+      "Improve campus food options",
+    ],
+    department: "Computer Science",
+    level: "300",
+  },
+  {
+    id: 3,
+    name: "Amanda Torres",
+    position: "Secretary",
+    image: "https://picsum.photos/400/400?random=3",
+    manifesto: [
+      "Digitize student records system",
+      "Create online booking system for facilities",
+      "Implement paperless communication",
+      "Regular newsletter updates",
+    ],
+    department: "Business Administration",
+    level: "400",
+  },
+  {
+    id: 4,
+    name: "David Okonjo",
+    position: "Treasurer",
+    image: "https://picsum.photos/400/400?random=4",
+    manifesto: [
+      "Transparent budget reporting",
+      "Increase funding for student clubs",
+      "Create emergency student fund",
+      "Regular financial audits",
+    ],
+    department: "Economics",
+    level: "300",
+  },
+];
+
+export const elections = [
+  {
+    id: 1,
+    title: "Student Union Elections 2025",
+    status: "Active",
+    startDate: "2025-06-10",
+    endDate: "2025-06-15",
+    type: "General",
+  },
+  {
+    id: 2,
+    title: "Department Representatives",
+    status: "Upcoming",
+    startDate: "2025-07-01",
+    endDate: "2025-07-05",
+    type: "Departmental",
+  },
+  {
+    id: 3,
+    title: "Sports Council Elections",
+    status: "Active",
+    startDate: "2025-06-08",
+    endDate: "2025-06-12",
+    type: "Sports",
+  },
+  {
+    id: 4,
+    title: "Hall Representatives",
+    status: "Upcoming",
+    startDate: "2025-07-15",
+    endDate: "2025-07-20",
+    type: "Residential",
+  },
+];
