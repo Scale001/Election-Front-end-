@@ -5,7 +5,7 @@ const responseBlob = (response) => {
   console.log(response);
   return response.data;
 };
-axios.defaults.baseURL = import.meta.env.VITE_BACKEND_URL;
+axios.defaults.baseURL = "https://election-back-end.onrender.com";
 
 axios.defaults.withCredentials = true;
 

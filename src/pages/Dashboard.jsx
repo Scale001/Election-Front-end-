@@ -132,7 +132,7 @@ export default function Dashboard() {
           <h3>Active Elections</h3>
           <div className="elections-grid">
             {electionData.length > 0 ? (
-              electionData.map((election) => (
+              electionData.map((election, index) => (
                 <div
                   key={election._id}
                   className="election-card"
