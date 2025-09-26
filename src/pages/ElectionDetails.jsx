@@ -122,24 +122,7 @@ const ElectionDetails = () => {
               }`}
               style={{ position: "relative" }}
             >
-              <div
-                style={{
-                  position: "absolute",
-                  top: "10px",
-                  right: "10px",
-                  backgroundColor: "#007bff",
-                  color: "#fff",
-                  borderRadius: "50%",
-                  width: "30px",
-                  height: "30px",
-                  display: "flex",
-                  alignItems: "center",
-                  justifyContent: "center",
-                  fontWeight: "bold",
-                }}
-              >
-                <span> null</span>
-              </div>
+              
               <div className="candidate-image">
                 <img
                   src={candidate.image}
