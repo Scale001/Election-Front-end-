@@ -138,7 +138,7 @@ const ElectionDetails = () => {
                   fontWeight: "bold",
                 }}
               >
-                <span> {Math.random().toFixed(0) * 10}</span>
+                <span> null</span>
               </div>
               <div className="candidate-image">
                 <img
