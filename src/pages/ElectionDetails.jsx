@@ -11,7 +11,7 @@ const ElectionDetails = () => {
   const { id } = useParams();
   const navigate = useNavigate();
   const [election, setElection] = useState(null);
-  // const [electionData, setElectionData] = useState([]);
+  // const [electionData, setElectionData] = useState([])
   const [selectedCandidate, setSelectedCandidate] = useState(null);
   const [hasVoted, setHasVoted] = useState(false);
   const token = localStorage.getItem("scalesToken");
